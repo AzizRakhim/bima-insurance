@@ -1265,6 +1265,9 @@ body {
   .about__map-holder {
     width: 100%;
   }
+  .about__location-holder {
+    display: none !important;
+  }
 }
 
 @media screen and (max-width: 992px) {
@@ -1331,9 +1334,6 @@ body {
     text-align: center;
     margin: 0 auto;
     margin-top: 20px;
-  }
-  .about__location-holder {
-    display: none !important;
   }
   .about__item {
     width: 100%;
