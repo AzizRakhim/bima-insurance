@@ -7,9 +7,10 @@
 }
 
 body{
-  font-family: sans-serif;
-  background-color: #fff;
+  font-family: "Mont", sans-serif;
+  background-color: $background-color;
   min-height: 100vh;
   display: flex;
   flex-flow: wrap column;
+  overflow-x: hidden;
 }

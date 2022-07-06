@@ -1,0 +1,278 @@
+.about{
+  padding: 80px 0 84px;
+  background: #f9f9f9;
+  border-radius: 150px 0px;
+}
+
+.about__title{
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 43px;
+  color: $title-color;
+  margin-right: 78px;
+  margin-bottom: 0;
+}
+
+.about__img-box{
+  width: 100%;
+  height: 100%;
+  max-width: 130px;
+  height: 60px;
+  margin-right: 30px;
+
+  img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.about__found{
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 165%;
+  color: #514a4a;
+  position: relative;
+  flex-grow: 1;
+}
+
+.about__year{
+  margin-left: 5px;
+  font-size: 24px;
+  color: $main-color;
+}
+
+.about__select{
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+
+  &:focus{
+    outline: none;
+  }
+}
+
+.about__top{
+  margin-bottom: 62px;
+}
+
+.about__list{
+  @include list-style;
+}
+
+.about__item-img-box{
+  width: 100%;
+  height: 100%;
+  max-width: 60px;
+  max-height: 60px;
+  margin-right: 20px;
+
+  img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+}
+
+.about__inner-num{
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 165%;
+  color: #514a4a;
+  margin-bottom: 1px;
+}
+
+.about__inner-text{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 165%;
+  color: $text-color;
+  margin-bottom: 0;
+}
+
+.about__map-holder{
+  display: flex;
+  justify-content: center;
+}
+
+.about__location-holder{
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 165%;
+  color: $title-color;
+
+  img{
+    width: 36px;
+    height: 36px;
+    object-fit: cover;
+    margin-right: 5px;
+  }
+}
+
+.hudjang{
+  position: absolute;
+  left: 180px !important;
+  top: 40px !important;
+}
+
+.dushanbe{
+  position: absolute;
+  top: 180px;
+  left: 120px;
+}
+
+.boxtar{
+  position: absolute;
+  top: 250px;
+  left: 115px;
+}
+
+.xorog{
+  position: absolute;
+  top: 290px;
+  left: 310px;
+}
+
+@media screen and(max-width: 1300px) {
+  .about__bottom{
+    flex-direction: column;
+  }
+
+  .about__list{
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .about__map-holder{
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .about__top{
+    flex-wrap: wrap;
+  }
+
+  .about__title{
+    width: 50%;
+    margin-bottom: 30px;
+  }
+
+  .about__img-box{
+    width: 50%;
+    margin-bottom: 30px;
+  }
+
+  .about__found{
+    width: 50%;
+  }
+
+  .about__btn{
+    width: 50%;
+  }
+
+  .about__location-holder{
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .about__top{
+    flex-wrap: wrap;
+  }
+
+  .about__title{
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 30px;
+  }
+
+  .about__img-box{
+    width: 100% !important;
+    margin-bottom: 30px;
+    margin: 0 auto;
+  }
+
+  .about__found{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    margin-top: 20px;
+  }
+
+  .about__btn{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+
+  .about__location-holder{
+    display: none !important;
+  }
+
+  .about__item{
+    width: 100%;
+    display: flex;
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .about__title{
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 30px;
+  }
+
+  .about__img-box{
+    width: 100% !important;
+    margin-bottom: 30px;
+    margin: 0 auto;
+  }
+
+  .about__found{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    margin-top: 20px;
+  }
+
+  .about__btn{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+
+  .about__location-holder{
+    display: none !important;
+  }
+
+  .about__item{
+    width: 100%;
+    display: flex;
+    margin-bottom: 30px;
+  }
+
+  .about__map-holder{
+    img{
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
+
+
